@@ -1,0 +1,11 @@
+Package: keychain
+Version: 0.1-0
+Title: Access user keychain to store or retrieve passwords
+Author: Simon Urbanek <simon.urbanek@r-project.org>
+Maintainer: Simon Urbanek <simon.urbanek@r-project.org>
+Description: This package provides access to user's keychain
+	in order to store or retrieve passwords for use in R.
+License: GPL-2
+URL: http://www.rforge.net/keychain
+SystemRequirements: System with Keychain Services
+Packaged: 2013-01-22 02:59:12 UTC; svnuser

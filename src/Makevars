@@ -1,0 +1,5 @@
+## this is not really needed for R, but R_DEFAULT_PACKAGES=NULL will fail
+OSNAME=$(shell uname)
+ifeq ($(OSNAME),Darwin)
+PKG_LIBS=-framework CoreFoundation -framework Security
+endif
